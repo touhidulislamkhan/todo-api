@@ -1,6 +1,8 @@
 const express = require('express');
 const connectdb = require('./config/db');
 
+const todoHandler = require('./routeHandlers/todo');
+
 const app = express();
 
 app.use(express.json());
@@ -9,6 +11,7 @@ app.use(express.json());
 connectdb();
 
 // route handling
+app.use('/todo', todoHandler);
 
 // error handling
 function errorhandler(err, req, res, next) {
