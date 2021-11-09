@@ -12,7 +12,7 @@
         "source.organizeImports": true
     },
     "eslint.alwaysShowStatus": true,
-    "editor.fontSize": 17,
+    "editor.fontSize": 16.5,
     "prettier.singleQuote": true,
     "prettier.tabWidth": 4,
     "prettier.endOfLine": "auto"
